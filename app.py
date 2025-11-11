@@ -4,7 +4,6 @@ import json
 from flask import Flask, render_template, request, jsonify, Response, session, redirect, url_for
 from werkzeug.security import generate_password_hash, check_password_hash
 import google.generativeai as genai
-from dotenv import load_dotenv
 import PyPDF2
 import docx
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable
